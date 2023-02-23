@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="shortcut icon" type="image/png" href="img/logo.png" />
+
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans:300,400,500,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Beauty</title>
+</head>
+
+<body>
+  <header class="header">
+    <nav class="nav">
+      <img src="img/rotari.png" alt="Лого Просто Банк" class="nav__logo" id="logo" />
+      <div class="nav__text">Nail Master and Lashes</div>
+      <ul class="nav__links">
+        <li class="nav__item">
+          <a class="nav__link" href="#section--1">Услуги</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#section--2">Операции</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#section--3">Отзывы</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link nav__link--btn btn--show-modal-window" href="#">Записатся</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="header__title">
+      <h1>
+        Когда
+        <!-- Эффект выделения фона -->
+        <span class="highlight">ноготочки</span>
+        максимально<br />
+        <span class="highlight">приятны</span>
+      </h1>
+      <h4>Иметь красивые ногти с гладким покрытием и безупречной формой мечтает каждая представительница прекрасного пола. Сделать же такой идеальный маникюр самостоятельно чрезвычайно трудно и под силу далеко не всем. Поэтому здесь на помощь приходим мы – профессиональные мастера маникюра.</h4>
+      <button class="btn--text btn--scroll-to">
+        Узнать больше &DownArrow;
+      </button>
+      <img src="img/page.png" class="header__img" alt="Изображения Просто Банк" />
+    </div>
+  </header>
+
+  <section class="section" id="section--1">
+    <div class="section__title">
+      <h2 class="section__description">Услуги</h2>
+      <h3 class="section__header">Все необходимое в одном месте!.</h3>
+    </div>
+
+    <div class="services">
+      <img src="img/us1.png" data-src="img/us1.png" alt="Числа на экране"
+        class="services__img lazy-img" />
+      <div class="services__feature">
+        <div class="services__icon">
+          <svg>
+            <use xlink:href="img/icons.svg#icon-monitor"></use>
+          </svg>
+        </div>
+        <h5 class="services__header">Я ПРЕДОСТАВЛЯЮ ПОЛНЫЙ КОМПЛЕКС УСЛУГ МАНИКЮРА!</h5>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
+          feugiat orci. Integer ut mauris nec sapien viverra condimentum sed
+          at eros. Donec vitae odio non mauris convallis congue. Quisque id
+          rhoncus elit. Nam accumsan facilisis felis.
+        </p>
+      </div>
+
+      <div class="services__feature">
+        <div class="services__icon">
+          <svg>
+            <use xlink:href="img/icons.svg#icon-trending-up"></use>
+          </svg>
+        </div>
+        <h5 class="services__header">И ПЕДИКЮРА</h5>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
+          feugiat orci. Integer ut mauris nec sapien viverra condimentum sed
+          at eros. Donec vitae odio non mauris convallis congue. Quisque id
+          rhoncus elit. Nam accumsan facilisis felis.
+        </p>
+      </div>
+      <img src="img/us2.png" data-src="img/us2.png" alt="Возрастающий тренд на графике"
+        class="services__img lazy-img" />
+
+      <img src="img/us3.png" data-src="img/us3.png" alt="Кредитная карта" class="services__img lazy-img" />
+      <div class="services__feature">
+        <div class="services__icon">
+          <svg>
+            <use xlink:href="img/icons.svg#icon-credit-card"></use>
+          </svg>
+        </div>
+        <h5 class="services__header">А так же реснички и моделирование бровей</h5>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
+          feugiat orci. Integer ut mauris nec sapien viverra condimentum sed
+          at eros. Donec vitae odio non mauris convallis congue. Quisque id
+          rhoncus elit. Nam accumsan facilisis felis.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="section--2">
+    <div class="section__title">
+      <h2 class="section__description">Операции</h2>
+      <h3 class="section__header">Все максимально просто, но не проще.</h3>
+    </div>
+
+    <div class="operations">
+      <div class="operations__tab-container">
+        <button class="
+              btn
+              operations__tab operations__tab--1 operations__tab--active
+            " data-tab="1">
+          Маникюр
+        </button>
+        <button class="btn operations__tab operations__tab--2" data-tab="2">
+          Педикюр
+        </button>
+        <button class="btn operations__tab operations__tab--3" data-tab="3">
+          Реснички и моделирование бровей
+        </button>
+      </div>
+      <div class="
+            operations__content
+            operations__content--1
+            operations__content--active
+          ">
+        <div class="operations__icon operations__icon--1">
+          <svg>
+            <use xlink:href="img/icons.svg#icon-upload"></use>
+          </svg>
+        </div>
+        <h5 class="operations__header">
+          «Самые счастливые девушки, как правило, имеют самый ухоженный маникюр» 
+        </h5>
+        <p>
+          Красивый маникюр не зря называют визиткой девушки, ведь он действительно формирует представление о степени ухоженности представительниц слабого пола. Нельзя просто нарядиться в обтягивающее платье, надеть туфли на высокой шпильке и завить голливудские локоны, но при этом стыдливо прятать руки из-за сколотого лака на ногтях. Маникюр дает +100% к уверенности и обаянию, проверено тысячами милых леди.
+        </p>
+      </div>
+
+      <div class="operations__content operations__content--2">
+        <div class="operations__icon operations__icon--2">
+          <svg>
+            <use xlink:href="img/icons.svg#icon-home"></use>
+          </svg>
+        </div>
+        <h5 class="operations__header">
+          «Быть красивой легко, главное следить за ухоженностью своих ногтей».
+        </h5>
+        <p>
+          «В педикюре качество ценится выше экстравагантности. Лучше выглядеть достойно, чем роскошно».
+        </p>
+      </div>
+      <div class="operations__content operations__content--3">
+        <div class="operations__icon operations__icon--3">
+          <svg>
+            <use xlink:href="img/icons.svg#icon-user-x"></use>
+          </svg>
+        </div>
+        <h5 class="operations__header">
+          «Счастье— это когда у тебя выпала ресничка, а ты не знаешь, что загадать.»
+        </h5>
+        <p>
+          Женщины относятся к своим ресницам, как к украшению, стараясь сделать ярче, пышнее и гуще, чтобы придать взгляду выразительность. Они необходимы человеку для защиты глаз от любых воздействий извне. Мы собрали в этой статье около 60 красивых высказываний, цитат и афоризмов про ресницы, которые можно использовать в разных ситуациях.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="section--3">
+    <div class="section__title section__title--reviews">
+      <h2 class="section__description">Всё ещё не уверены?</h2>
+      <h3 class="section__header">
+        Десятки женщин рады моим услугам.
+      </h3>
+    </div>
+
+    <div class="slider">
+      <div class="slide slide--1">
+        <div class="review">
+          <h5 class="review__header">Качество ЛУЧШЕЕ!!!</h5>
+          <blockquote class="review__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
+            feugiat orci. Integer ut mauris nec sapien viverra condimentum sed
+            at eros. Donec vitae odio non mauris convallis congue. Quisque id
+            rhoncus elit. Nam accumsan facilisis felis.
+          </blockquote>
+          <address class="review__author">
+            <img src="img/user-1.png" alt="Фото пользователя" class="review__photo" />
+            <h6 class="review__name">Александра Мищенко</h6>
+            <p class="review__location">Киев, Украина</p>
+          </address>
+        </div>
+      </div>
+
+      <div class="slide slide--2">
+        <div class="review">
+          <h5 class="review__header">
+            Просто ВАУ!!!!
+          </h5>
+          <blockquote class="review__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
+            feugiat orci. Integer ut mauris nec sapien viverra condimentum sed
+            at eros. Donec vitae odio non mauris convallis congue. Quisque id
+            rhoncus elit. Nam accumsan facilisis felis.
+          </blockquote>
+          <address class="review__author">
+            <img src="img/user-1.png" alt="Фото пользователя" class="review__photo" />
+            <h6 class="review__name">Золушка</h6>
+            <p class="review__location">Нью Йорк, USA</p>
+          </address>
+        </div>
+      </div>
+
+      <div class="slide slide--3">
+        <div class="review">
+          <h5 class="review__header">
+            Наконец-то я нашла хорошего мастера 
+          </h5>
+          <blockquote class="review__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
+            feugiat orci. Integer ut mauris nec sapien viverra condimentum sed
+            at eros. Donec vitae odio non mauris convallis congue. Quisque id
+            rhoncus elit. Nam accumsan facilisis felis.
+          </blockquote>
+          <address class="review__author">
+            <img src="img/user-1.png" alt="Фото пользователя" class="review__photo" />
+            <h6 class="review__name">Пушкарева</h6>
+            <p class="review__location">Москва, Россия</p>
+          </address>
+        </div>
+      </div>
+
+      <!-- <div class="slide"><img src="img/image-1.jpg" alt="Фото природы" /></div>
+        <div class="slide"><img src="img/image-2.jpg" alt="Фото природы" /></div>
+        <div class="slide"><img src="img/image-3.jpg" alt="Фото природы" /></div>
+        <div class="slide"><img src="img/image-4.jpg" alt="Фото природы" /></div>
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button> -->
+
+      <div class="dots">
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--sign-up">
+    <div class="section__title">
+      <h3 class="section__header">
+        Сейчас лучшее время записаться !!!
+      </h3>
+    </div>
+    <button class="btn btn--show-modal-window">Записатся</button>
+  </section>
+
+  <footer class="footer">
+    <ul class="footer__nav">
+      <li class="footer__item">
+        <a class="footer__link" href="#">О Нас</a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="#">Расценки</a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="#">Правила Использования</a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="#">Политика Конфиденциальности</a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="#">Карьера</a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="#">Блог</a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="#">Свяжитесь С Нами</a>
+      </li>
+    </ul>
+    <img src="img/rotari.png" alt="Логотип банка" class="footer__logo" />
+    <p class="footer__copyright">
+      НЕ ТЕРЯЙ ВРЕМЯ ЗАПИСЫВАЙСЯ
+    </p>
+    <p class="footer__copyright">
+      &copy;
+      <a class="footer__link masters-of-code-link" target="_blank" href="https://www.linkedin.com/in/artiom-rotari-9b18a324a/">Artiom Rotari</a>.
+    </p>
+  </footer>
+
+  <div class="modal-window hidden">
+    <button class="btn--close-modal-window">&times;</button>
+    <h2 class="modal__header">
+      Запишитесь на мой услуги <br />
+      за <span class="highlight">5 минут</span>
+    </h2>
+    <form class="modal__form">
+      <!-- <label>Имя</label>
+      <input type="text" />
+      <label>Фамилия</label>
+      <input type="text" />
+      <label>Email</label>
+      <input type="email" />
+      <button class="btn">Далее &rarr;</button> -->
+
+      <a href="https://www.instagram.com/rotari_maria_lash_nail/?igshid=NzAzN2Q1NTE%3D&fbclid=IwAR3IYBMDcs91ebXdH4SRRba1ohHjqouvYi0q83h1icGtJVByKurNsqhEJSo"><img src="img/iconInsta.png" alt="instagram" class="logoSocial"></a>
+      <a href="https://www.facebook.com/maria.uzun.97"><img src="img/facebook.png" alt="facebook" class="logoSocial2"></a>
+      <!-- <img src="img/tiktok.png" alt="tiktok" class="logoSocial"> -->
+
+    </form>
+  </div>
+  <div class="overlay hidden"></div>
+
+  <script defer src=""></script>
+
+  <script src="src/script.js"></script>
+</body>
+
+</html>
